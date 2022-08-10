@@ -1,1 +1,12 @@
-# topuniverse2.0-frontend-workshop-css-positions
+CSS Positions
+
+Static    //Default
+Relative
+Absolute
+Fixed
+Sticky
+
+
+
+
+Javascript Objects & Classes
