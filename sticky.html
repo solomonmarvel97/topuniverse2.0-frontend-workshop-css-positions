@@ -1,0 +1,47 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <link href="main.css" rel="stylesheet">
+</head>
+
+<body>
+    
+    <div class="sticky-parent">
+        <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Ex explicabo ratione quia. Magni architecto debitis consequatur deserunt dicta dolor facere earum voluptatibus ea, laborum doloribus molestiae illo ipsam perspiciatis veniam.</p>
+        <div class="sticky"></div>
+    </div>
+
+
+    <style>
+        * {
+            padding: 0;
+            margin: 0;
+            box-sizing: border-box;
+        }
+
+        body {
+            height: 250vh;
+        }
+
+        .sticky-parent {
+            height: 100vh;
+            background-color: yellow;
+        }
+
+        .sticky {
+            position: sticky;
+            background: black;
+            width: 50px;
+            height: 50px;
+            top: 200px;
+            left: 200px;
+        }
+    </style>
+</body>
+
+</html>

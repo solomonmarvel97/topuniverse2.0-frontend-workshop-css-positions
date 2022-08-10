@@ -1,0 +1,77 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+</head>
+
+<body>
+
+    <div id="parent">
+        <div id="child1"></div>
+        <div id="child2"></div>
+        <div id="child3"></div>
+        <div id="child4"></div>
+
+    </div>
+
+    <style>
+        body {
+            display: flex;
+            justify-content: center;
+            place-items: center;
+            height: 100vh;
+        }
+        #parent {
+            height: 250px;
+            width: 250px;
+            position: relative;
+            background-color: black;
+        }
+
+        #child1 {
+            height: 50px;
+            width: 50px;
+            position: absolute;
+            border-radius: 50%;
+            background-color: yellow;
+            left: -15px;
+            bottom: -15px;
+        }
+        
+        #child2 {
+            height: 50px;
+            width: 50px;
+            position: absolute;
+            border-radius: 50%;
+            background-color: rgb(7, 219, 138);
+            right: -15px;
+            bottom: -15px;
+        }
+
+        #child3 {
+            height: 50px;
+            width: 50px;
+            position: absolute;
+            border-radius: 50%;
+            background-color: rgb(28, 7, 219);
+            right: -15px;
+            top: -15px;
+        }
+
+        #child4 {
+            height: 50px;
+            width: 50px;
+            position: absolute;
+            border-radius: 50%;
+            background-color: rgb(219, 7, 7);
+            left: -15px;
+            top: -15px;
+        }
+    </style>
+</body>
+
+</html>
